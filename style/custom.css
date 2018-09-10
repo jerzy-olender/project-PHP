@@ -1,0 +1,225 @@
+/** Globalne style **/
+p {
+	font-size: .9rem;
+	line-height: 1.75rem;
+}
+body {
+  position: relative;
+}
+
+.btn {
+	padding: .5rem 1.25rem;
+}
+
+.top-separator {
+            padding-top: 56px;
+        }
+
+.page-label {
+	letter-spacing: .15rem;
+	font-size: .75rem;
+}
+
+/** Navbar 
+.navbar .navbar-nav .nav-item {
+	padding: 0 1.5rem;
+}**/
+
+/** Top **/
+.top {
+	padding: 165px 0 175px;
+	background-image: url('../images/code2.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+    /*-webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+-ms-filter: blur(3px);
+filter: blur(3px);*/
+}
+.top vert {
+    z-index: 0;
+}
+
+.top-header {
+	margin-bottom: 1.25rem;
+	font-size: 2.75rem;
+     animation-duration: 5s;
+  animation-iteration-count: infinite;
+    
+}
+
+.top-text {
+	font-size: 1rem;
+}
+
+.top-button {
+	margin-top: 1.5rem;
+}
+
+
+
+/** Wprowadzenie **/
+.introduction {
+	padding: 50px 0 60px;
+}
+
+.introduction-header {
+	margin-bottom: 70px;
+}
+
+.introduction-item {
+	padding: 0 2rem;
+}
+
+.introduction-item-header {
+	margin: 1.5rem 0 .75rem;
+}
+
+/** Opinie **/
+.testimonial {
+	padding: 100px 0;
+	background-image: url('../images/testimonial-bg.jpg');
+	background-position: 0% 30%;
+	background-repeat: no-repeat;
+}
+
+.testimonial-content {
+	width: 60%;
+}
+
+.testimonial-header {
+	margin-bottom: 1.75rem;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.testimonial-text {
+	font-size: 1rem;
+}
+
+/** Realizacje **/
+.portfolio {
+	padding: 80px 0 90px;
+	background-color: #F8F8F8;
+}
+
+.portfolio-header {
+	margin-bottom: 75px;
+}
+
+.portfolio-img {
+	margin-bottom: 1.5rem;
+}
+
+.portfolio-subheader {
+	margin: .4rem 0 1rem;
+	font-size: 1.1rem;
+}
+
+.portfolio-button {
+	margin: .5rem 0;
+	padding: .5rem 2rem;
+}
+
+/** Napisz do nas **/
+.write-to-us {
+	padding-top: 0px;
+}
+
+.write-to-us-left {
+	width: 80%;
+	 
+}
+
+.write-to-us-header {
+	
+	font-size: 1.4rem;
+}
+
+.write-to-us .form-control-label {
+	margin-bottom: .35rem;
+	font-size: .6rem;
+	color: #999999;
+}
+
+.write-to-us .form-control {
+	border-radius: 0;
+	border-color: #999999;
+}
+
+.write-to-us input {
+	height: 2rem;
+}
+
+.write-to-us textarea {
+	margin-bottom: 1.75rem;
+}
+
+/** Stopka **/
+.site-footer {
+	padding: 95px 0 10px;
+	background-color: #2D3E50;
+	font-size: .9rem;
+}
+
+.footer-first-col li {
+	padding: .6rem 0;
+}
+.footer-second-col li a {
+	text-decoration: none;
+    color: #fff;
+}
+
+.footer-first-col li i {
+	margin-right: .75rem;
+}
+
+.footer-second-col li {
+	padding: 1rem 0;
+	width: 90%;
+	border-bottom: 1px solid #777777;
+}
+
+.footer-second-col li:last-child {
+	border-bottom: none;
+}
+
+.footer-second-col li:first-child {
+	padding-top: 0;
+}
+
+.footer-second-col li span {
+	display: inline-block;
+	margin-right: .5rem;
+	font-weight: 600;
+}
+
+/** Copyright **/
+.copyright {
+	padding: 10px 0;
+}
+
+.copyright-designed {
+	font-size: .85rem;
+}
+
+}
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
